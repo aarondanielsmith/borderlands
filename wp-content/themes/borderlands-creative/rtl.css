@@ -1,0 +1,9 @@
+/*
+Theme Name:     Borderlands Creative
+Template:       photo-journal
+
+This is the child theme for Photo Journal theme, generated with Generate Child Theme plugin by catchthemes.
+
+Right to Left text support.
+*/
+@import url("../photo-journal/rtl.css");

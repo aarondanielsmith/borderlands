@@ -1,0 +1,10 @@
+.author .hero-section {
+
+	.avatar-container {
+		border-radius: 100%;
+
+		+ .page-title {
+			--itemSpacing: 0;	
+		}
+	}	
+}

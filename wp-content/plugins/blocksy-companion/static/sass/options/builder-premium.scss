@@ -1,0 +1,85 @@
+.ct-create-header:before {
+	content: '\f335';
+	transform: rotate(45deg);
+}
+
+// remove header
+.ct-select-dropdown-item {
+	&.selected:after {
+		right: 9px !important;
+	}
+
+	.ct-remove-item {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 35px;
+
+		&:hover {
+			color: #a00;
+		}
+
+		&:before {
+			font-family: 'dashicons';
+			content: '\f335';
+		}
+	}
+}
+
+// modal
+.ct-conditions-modal {
+	.ct-control {
+		text-align: left;
+		margin-bottom: 20px;
+	}
+
+	.ct-condition-group {
+		padding-right: 0;
+
+		button {
+			right: -30px;
+		}
+	}
+
+	.add-condition {
+		width: 100%;
+	}
+}
+
+.ct-conditions-actions,
+.ct-builder-modal-actions {
+	margin-top: auto;
+	padding-top: 20px;
+	border-top: 1px dashed #eee;
+
+	.button-primary {
+		width: 100%;
+		min-height: 42px;
+		font-size: 14px;
+		font-weight: 500;
+	}
+}
+
+// copy instance
+.ct-control-copy-instance {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 10px;
+	min-height: 30px;
+	margin: 20px 0;
+	padding-top: 20px;
+	border-top: 1px dashed #eee;
+
+	label {
+		display: flex;
+		align-items: center;
+	}
+
+	.ct-option-switch {
+		margin-right: 10px;
+	}
+}

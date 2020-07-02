@@ -1,0 +1,112 @@
+/*
+Theme Name: Borderlands Creative
+Author: Aaron Smith
+Description: Child theme of Photo Journal created especially for Borderlands Creative
+Version: 1.0
+Template: photo-journal
+
+This is the child theme for Photo Journal theme, generated with Generate Child Theme plugin by catchthemes.
+
+(optional values you can add: Theme URI, Author URI, License, License URI, Tags, Text Domain)
+*/
+
+/********** BASE STYLES **********/
+
+h1, h2, h3, h4, h5, h6, header, footer, nav, button, select, .photos-links a, .scroll-down span, .wp-block-button {
+    font-family: industry-inc-base, sans-serif;
+}
+
+/********** HEADER **********/
+
+.custom-header-content .entry-title {
+    font-family: dirty-bakers-dozen-scorch, sans-serif;
+}
+
+.custom-header-content .site-header-text {
+    font-family: industry-inc-base, sans-serif;
+    font-size: 1.5rem;
+}
+
+.site-description,
+.entry-breadcrumbs {
+    font-family: chantal, sans-serif
+}
+
+.home #masthead {
+    display: none;
+}
+
+.home header {
+    display: none;
+}
+
+.secondary-search-wrapper {
+    display: none;
+}
+
+/********** PHOTOS PAGE **********/
+
+.wp-block-cover {
+    margin-bottom: 10px;
+}
+
+.wp-block-cover p {
+    margin: 0;
+    font-family: dirty-bakers-dozen-scorch, sans-serif;
+}
+
+/********** IMAGE ATTACHMENT **********/
+
+.entry-attachment {
+    display: flex;
+    justify-content: center;
+}
+
+.attachment #comments,
+.attachment .post-navigation {
+    display: none;
+}
+
+.attachment header {
+    margin-bottom: 42px;
+    text-align: center;
+}
+
+.attachment footer {
+    text-align: center;
+}
+
+/********** CONTACT **********/
+
+.nf-form-fields-required {
+    display: none;
+}
+
+.ninja-forms-req-symbol {
+    display: none;
+}
+
+/********** MEDIA QUERIES **********/
+
+@media screen and (max-width: 35em) {
+    .custom-header-content .entry-title {
+        font-size: 2.25rem;
+    }
+
+    .custom-header-content .site-header-text {
+        font-size: inherit;
+    }
+    
+}
+
+@media screen and (max-width: 25em) {
+    .custom-header-content .entry-title {
+        font-size: 1.75rem;
+    }
+}
+
+@media screen and (min-width: 64em) {
+    .custom-header-content {
+        max-width: inherit;
+    }
+}
